@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+#main {
+    width: 100%;
+    max-width: 420px;
+    background: rgba(255, 255, 255, 0.08);
+    padding: 28px 30px;
+    border-radius: 12px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
+    backdrop-filter: blur(10px);
+}
+
+#main h1 {
+    text-align: center;
+    margin-bottom: 12px;
+    font-size: 1.8rem;
+}
+
+#main h2 {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 14px;
+    opacity: 0.8;
+}
+
+#main input[type="checkbox"] {
+    margin-right: 7px;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#main input[type="number"] {
+    width: 80px;
+    padding: 6px 8px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font-size: 0.95rem;
+    margin-left: 6px;
+}
+
+#main button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 12px;
+    background: #4ade80;
+    color: #064e3b;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+#main button:hover {
+    transform: translateY(-1px);
+    box-shadow: 6px 8px 20px rgba(74, 222, 128, 0.4);
+}
+
+#passwordResult {
+    margin-top: 14px;
+    padding: 12px;
+    min-height: 44px;
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.35);
+    font-family: Verdana;
+    font-size: 1rem;
+    text-align: center;
+    word-break: break-all;
+}
+
